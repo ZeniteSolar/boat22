@@ -1,0 +1,1057 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 37
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4600 1800 950  850 
+U 5CCE23EC
+F0 "Módulo de Carregamento do Sistema" 50
+F1 "MCS19.sch" 50
+F2 "Bat_P_Unfused_in" I L 4600 2000 50 
+F3 "Bat_N_Unfused_in" I L 4600 2100 50 
+F4 "Bat_P_Fused_out" O R 5550 2250 50 
+F5 "Bat_N_Fused_out" O R 5550 2350 50 
+F6 "CAN" I R 5550 2600 50 
+$EndSheet
+$Sheet
+S 8325 1800 900  750 
+U 5CCE2823
+F0 "Módulo de Acionamento do Motor" 50
+F1 "MAM17.sch" 50
+F2 "Bat_P_in" I L 8325 2250 50 
+F3 "Bat_N_in" I L 8325 2350 50 
+F4 "Motor_P" I R 9225 2000 50 
+F5 "Motor_N" I R 9225 2100 50 
+F6 "CAN" I R 9225 2500 50 
+$EndSheet
+$Sheet
+S 10500 1800 1000 500 
+U 5CCE6749
+F0 "Motor Principal" 50
+F1 "mainMotor.sch" 50
+F2 "Motor_P" I L 10500 2000 50 
+F3 "Motor_N" I L 10500 2100 50 
+$EndSheet
+Wire Wire Line
+	10500 2000 9225 2000
+Wire Wire Line
+	9225 2100 9800 2100
+$Sheet
+S 13850 4550 1000 500 
+U 5CCE7E0A
+F0 "Painel Fotovoltaico 3" 50
+F1 "solarPanel.sch" 50
+F2 "Panel_P" I L 13850 4700 50 
+F3 "Panel_N" I L 13850 4800 50 
+$EndSheet
+$Sheet
+S 13850 5250 1000 500 
+U 5CCE81F4
+F0 "Painel Fotovoltaico 4" 50
+F1 "solarPanel.sch" 50
+F2 "Panel_P" I L 13850 5400 50 
+F3 "Panel_N" I L 13850 5500 50 
+$EndSheet
+Wire Wire Line
+	4600 6950 4100 6950
+Wire Wire Line
+	4600 6350 4200 6350
+$Sheet
+S 4600 6200 550  350 
+U 5CCE35CC
+F0 "Módulo Sensor CAN - Amperímetro IN" 50
+F1 "MSCA19.sch" 50
+F2 "Hall" I L 4600 6350 50 
+F3 "CAN" I R 5150 6500 50 
+$EndSheet
+$Sheet
+S 4600 6800 550  350 
+U 5CCE3650
+F0 "Módulo Sensor CAN - Amperímetro OUT" 50
+F1 "MSCA19.sch" 50
+F2 "Hall" I L 4600 6950 50 
+F3 "CAN" I R 5150 7100 50 
+$EndSheet
+$Sheet
+S 12050 1800 500  500 
+U 5CE20002
+F0 "Módulo Tacômetro" 50
+F1 "MT19.sch" 50
+F2 "CAN" I L 12050 2250 50 
+$EndSheet
+$Sheet
+S 13850 3050 1000 500 
+U 5CCE7104
+F0 "Painel Fotovoltaico 1" 50
+F1 "solarPanel.sch" 50
+F2 "Panel_P" I L 13850 3200 50 
+F3 "Panel_N" I L 13850 3300 50 
+$EndSheet
+$Sheet
+S 13850 3800 1000 500 
+U 5CCE7A17
+F0 "Painel Fotovoltaico 2" 50
+F1 "solarPanel.sch" 50
+F2 "Panel_P" I L 13850 3950 50 
+F3 "Panel_N" I L 13850 4050 50 
+$EndSheet
+$Sheet
+S 8325 6000 950  450 
+U 5CCF68BC
+F0 "Módulo de Carregamento de Bateria 1" 50
+F1 "MCB19.sch" 50
+F2 "Bat_P" I L 8325 6150 50 
+F3 "Bat_N" I L 8325 6250 50 
+F4 "Charger_P" I R 9275 6150 50 
+F5 "Charger_N" I R 9275 6250 50 
+F6 "CAN" I R 9275 6400 50 
+$EndSheet
+Wire Wire Line
+	9275 5500 13850 5500
+Wire Wire Line
+	13850 5400 9275 5400
+$Sheet
+S 8325 5250 950  500 
+U 5CCE81F0
+F0 "Módulo Controlador de Carga 4" 50
+F1 "MCC18.sch" 50
+F2 "Panel_P" I R 9275 5400 50 
+F3 "Panel_N" I R 9275 5500 50 
+F4 "Bat_P" I L 8325 5400 50 
+F5 "Bat_N" I L 8325 5500 50 
+F6 "CAN" I R 9275 5700 50 
+$EndSheet
+Wire Wire Line
+	9275 4800 13850 4800
+Wire Wire Line
+	13850 4700 9275 4700
+$Sheet
+S 8325 4550 950  500 
+U 5CCE7E06
+F0 "Módulo Controlador de Carga 3" 50
+F1 "MCC18.sch" 50
+F2 "Panel_P" I R 9275 4700 50 
+F3 "Panel_N" I R 9275 4800 50 
+F4 "Bat_P" I L 8325 4700 50 
+F5 "Bat_N" I L 8325 4800 50 
+F6 "CAN" I R 9275 5000 50 
+$EndSheet
+Wire Wire Line
+	9275 4050 13850 4050
+Wire Wire Line
+	13850 3950 9275 3950
+$Sheet
+S 8325 3800 950  500 
+U 5CCE7A13
+F0 "Módulo Controlador de Carga 2" 50
+F1 "MCC18.sch" 50
+F2 "Panel_P" I R 9275 3950 50 
+F3 "Panel_N" I R 9275 4050 50 
+F4 "Bat_P" I L 8325 3950 50 
+F5 "Bat_N" I L 8325 4050 50 
+F6 "CAN" I R 9275 4250 50 
+$EndSheet
+Wire Wire Line
+	9275 3300 13850 3300
+Wire Wire Line
+	13850 3200 9275 3200
+$Sheet
+S 8325 3050 950  500 
+U 5CCE60F1
+F0 "Módulo Controlador de Carga 1" 50
+F1 "MCC18.sch" 50
+F2 "Panel_P" I R 9275 3200 50 
+F3 "Panel_N" I R 9275 3300 50 
+F4 "Bat_P" I L 8325 3200 50 
+F5 "Bat_N" I L 8325 3300 50 
+F6 "CAN" I R 9275 3500 50 
+$EndSheet
+$Sheet
+S 4600 5500 550  400 
+U 5CE2020F
+F0 "Módulo CAN para RaspberryPI" 50
+F1 "MSCV19.sch" 50
+F2 "CAN" I R 5150 5850 50 
+$EndSheet
+$Sheet
+S 4600 3550 550  400 
+U 5CE2052D
+F0 "Módulo de Interface de Controle" 50
+F1 "MIC19.sch" 50
+F2 "CAN" I R 5150 3900 50 
+$EndSheet
+Wire Bus Line
+	5550 2600 6000 2600
+Wire Bus Line
+	6000 6500 5150 6500
+Wire Bus Line
+	5150 7100 6000 7100
+Wire Bus Line
+	6000 7100 6000 6500
+Connection ~ 6000 6500
+Wire Bus Line
+	5150 5850 6000 5850
+Wire Bus Line
+	6000 5850 6000 6500
+Connection ~ 6000 3900
+Wire Bus Line
+	5150 3900 6000 3900
+Wire Bus Line
+	9225 2500 9950 2500
+Wire Bus Line
+	9950 2500 9950 3500
+Wire Bus Line
+	9275 6400 9950 6400
+Connection ~ 9950 6400
+Wire Bus Line
+	9275 5700 9950 5700
+Connection ~ 9950 5700
+Wire Bus Line
+	9950 5700 9950 6400
+Wire Bus Line
+	9275 5000 9950 5000
+Connection ~ 9950 5000
+Wire Bus Line
+	9950 5000 9950 5700
+Wire Bus Line
+	9275 4250 9950 4250
+Connection ~ 9950 4250
+Wire Bus Line
+	9950 4250 9950 5000
+Wire Bus Line
+	9275 3500 9950 3500
+Connection ~ 9950 3500
+Wire Bus Line
+	9950 3500 9950 4250
+Wire Bus Line
+	12050 2250 11850 2250
+Wire Bus Line
+	11850 2250 11850 2500
+Wire Bus Line
+	11850 2500 9950 2500
+Connection ~ 9950 2500
+Connection ~ 6000 5850
+Wire Bus Line
+	5150 4550 6000 4550
+Wire Bus Line
+	5150 8350 6000 8350
+$Sheet
+S 4600 4200 550  400 
+U 5CE203D7
+F0 "Display Multímetro" 50
+F1 "MVC19.sch" 50
+F2 "CAN" I R 5150 4550 50 
+$EndSheet
+$Sheet
+S 4600 8000 550  400 
+U 5CCE3151
+F0 "Módulo Sensor CAN - Voltimetro Bateria 2" 50
+F1 "MSCV19.sch" 50
+F2 "Bat_P" T L 4600 8100 50 
+F3 "Bat_N" T L 4600 8200 50 
+F4 "CAN" I R 5150 8350 50 
+$EndSheet
+Wire Bus Line
+	9950 9925 9950 10575
+$Sheet
+S 8700 10225 550  400 
+U 5CE3E9F1
+F0 "Módulo de Direção Elétrica - PROA" 50
+F1 "MDE19.sch" 50
+F2 "CAN" I R 9250 10575 50 
+$EndSheet
+Wire Bus Line
+	9950 6400 9950 7100
+Connection ~ 9950 7800
+$Sheet
+S 8325 6700 950  450 
+U 5DC34F07
+F0 "Módulo de Carregamento de Bateria 2" 50
+F1 "MCB19.sch" 50
+F2 "Bat_P" I L 8325 6850 50 
+F3 "Bat_N" I L 8325 6950 50 
+F4 "Charger_P" I R 9275 6850 50 
+F5 "Charger_N" I R 9275 6950 50 
+F6 "CAN" I R 9275 7100 50 
+$EndSheet
+Wire Bus Line
+	9275 7100 9950 7100
+Connection ~ 9950 7100
+$Sheet
+S 11900 7400 950  500 
+U 5DC3DF9F
+F0 "Bateria Auxiliar" 50
+F1 "mainBattery.sch" 50
+F2 "Bat_P_Unfused_Out" O L 11900 7600 50 
+F3 "Bat_N_Unfused_Out" O L 11900 7700 50 
+$EndSheet
+Wire Wire Line
+	11900 7600 11750 7600
+Wire Wire Line
+	11900 7700 11700 7700
+$Sheet
+S 11900 9300 950  500 
+U 5DC4E327
+F0 "Bateria Direção" 50
+F1 "mainBattery.sch" 50
+F2 "Bat_P_Unfused_Out" O L 11900 9500 50 
+F3 "Bat_N_Unfused_Out" O L 11900 9600 50 
+$EndSheet
+Wire Wire Line
+	9275 6150 11000 6150
+Wire Wire Line
+	11000 6150 11000 7600
+Connection ~ 11000 7600
+Wire Wire Line
+	11000 7600 9450 7600
+Wire Wire Line
+	9275 6250 10900 6250
+Wire Wire Line
+	10900 6250 10900 7700
+Connection ~ 10900 7700
+Wire Wire Line
+	10900 7700 9550 7700
+Wire Wire Line
+	9275 6850 10800 6850
+Wire Wire Line
+	10800 6850 10800 9500
+Wire Wire Line
+	10700 9600 10700 6950
+Wire Wire Line
+	10700 6950 9275 6950
+$Sheet
+S 4600 7400 550  400 
+U 5DC80323
+F0 "Módulo Sensor CAN - Voltimetro Bateria 1" 50
+F1 "MSCV19.sch" 50
+F2 "Bat_P" T L 4600 7550 50 
+F3 "Bat_N" T L 4600 7650 50 
+F4 "CAN" I R 5150 7750 50 
+$EndSheet
+Connection ~ 11200 7600
+Wire Wire Line
+	11200 7600 11000 7600
+Connection ~ 11100 7700
+Wire Wire Line
+	11100 7700 10900 7700
+$Sheet
+S 4600 8600 550  400 
+U 5DC96438
+F0 "Módulo Sensor CAN - Voltimetro Bateria 3" 50
+F1 "MSCV19.sch" 50
+F2 "Bat_P" T L 4600 8750 50 
+F3 "Bat_N" T L 4600 8850 50 
+F4 "CAN" I R 5150 8950 50 
+$EndSheet
+Wire Wire Line
+	11900 9600 11700 9600
+$Comp
+L Device:Fuse F105
+U 1 1 5DCBD654
+P 3700 2100
+F 0 "F105" V 3500 2150 50  0000 C CNN
+F 1 "250A" V 3600 2100 50  0000 C CNN
+F 2 "" V 3630 2100 50  0001 C CNN
+F 3 "~" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST_x2 SW101
+U 2 1 5DCC5EB3
+P 3700 2000
+F 0 "SW101" H 3700 2250 50  0000 C CNN
+F 1 "Relé" H 3700 2150 50  0000 C CNN
+F 2 "" H 3700 2000 50  0001 C CNN
+F 3 "~" H 3700 2000 50  0001 C CNN
+	2    3700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F106
+U 1 1 5DCD9D7E
+P 11550 7700
+F 0 "F106" V 11350 7750 50  0000 C CNN
+F 1 "15A" V 11450 7700 50  0000 C CNN
+F 2 "" V 11480 7700 50  0001 C CNN
+F 3 "~" H 11550 7700 50  0001 C CNN
+	1    11550 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST_x2 SW102
+U 2 1 5DCD9D88
+P 11550 7600
+F 0 "SW102" H 11550 7850 50  0000 C CNN
+F 1 " CHAVE MOTOR" H 11550 7750 50  0000 C CNN
+F 2 "" H 11550 7600 50  0001 C CNN
+F 3 "~" H 11550 7600 50  0001 C CNN
+	2    11550 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 7700 11100 7700
+Wire Wire Line
+	11350 7600 11200 7600
+$Comp
+L Device:Fuse F107
+U 1 1 5DCF5D5A
+P 11550 9600
+F 0 "F107" V 11350 9650 50  0000 C CNN
+F 1 "15A" V 11450 9600 50  0000 C CNN
+F 2 "" V 11480 9600 50  0001 C CNN
+F 3 "~" H 11550 9600 50  0001 C CNN
+	1    11550 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST_x2 SW103
+U 1 1 5DCF5D64
+P 11550 9500
+F 0 "SW103" H 11550 9750 50  0000 C CNN
+F 1 " " H 11550 9650 50  0000 C CNN
+F 2 "" H 11550 9500 50  0001 C CNN
+F 3 "~" H 11550 9500 50  0001 C CNN
+	1    11550 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 9500 11900 9500
+$Sheet
+S 11900 8700 550  400 
+U 5DCFE416
+F0 "Ventiladores" 50
+F1 "Fans.sch" 50
+F2 "Bat_P" T L 11900 8850 50 
+F3 "Bat_N" T L 11900 8950 50 
+$EndSheet
+$Comp
+L Switch:SW_DPST_x2 SW102
+U 1 1 5DD21B88
+P 10000 2100
+F 0 "SW102" H 10000 1850 50  0000 C CNN
+F 1 " CHAVE MOTOR" H 10000 1950 50  0000 C CNN
+F 2 "" H 10000 2100 50  0001 C CNN
+F 3 "~" H 10000 2100 50  0001 C CNN
+	1    10000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2100 10500 2100
+Wire Wire Line
+	4450 2000 4450 3000
+Connection ~ 4450 2000
+Wire Wire Line
+	4450 2000 4600 2000
+Wire Wire Line
+	4350 2100 4350 3100
+Connection ~ 4350 2100
+Wire Wire Line
+	4350 2100 4600 2100
+Wire Wire Line
+	4200 2000 4200 6350
+Connection ~ 4200 2000
+Connection ~ 4100 2100
+Wire Wire Line
+	4100 2100 4350 2100
+Wire Bus Line
+	6000 4550 6000 5200
+Connection ~ 6000 4550
+$Sheet
+S 4600 4850 550  400 
+U 5DD716FA
+F0 "Display Multímetro Secundário" 50
+F1 "MVC19.sch" 50
+$EndSheet
+Text HLabel 5150 5200 0    50   Output ~ 0
+CAN
+Wire Bus Line
+	5150 5200 6000 5200
+Connection ~ 6000 5200
+Text HLabel 8350 8700 2    50   Output ~ 0
+PUMP_P
+$Sheet
+S 7200 8550 500  350 
+U 5DD76A89
+F0 "Bomba de porão 1" 50
+F1 "PUMP.sch" 50
+$EndSheet
+Text HLabel 8350 8800 2    50   Output ~ 0
+PUMP_N
+$Sheet
+S 8350 8550 900  450 
+U 5CE20542
+F0 "Módulo de Acionamento da Bomba de porão 1" 50
+F1 "MAB19.sch" 50
+F2 "Bat_P" T R 9250 8700 50 
+F3 "Bat_N" T R 9250 8800 50 
+F4 "CAN" I R 9250 8900 50 
+$EndSheet
+Wire Bus Line
+	9250 8900 9950 8900
+Wire Bus Line
+	9250 7800 9950 7800
+Wire Wire Line
+	9250 7600 9450 7600
+Wire Wire Line
+	9250 7700 9550 7700
+Wire Wire Line
+	9250 8700 9450 8700
+Wire Wire Line
+	9250 8800 9550 8800
+Text HLabel 7700 8700 0    50   Output ~ 0
+PUMP_P
+Text HLabel 7700 8800 0    50   Output ~ 0
+PUMP_N
+Wire Wire Line
+	11200 8850 11900 8850
+Wire Wire Line
+	11100 8950 11900 8950
+Wire Bus Line
+	9250 10575 9950 10575
+Text HLabel 8350 8900 2    50   Output ~ 0
+LEVEL_SENSOR
+Text HLabel 8350 7600 2    50   Output ~ 0
+PUMP_P
+$Sheet
+S 7200 7450 500  350 
+U 5DDBBBED
+F0 "Bomba de porão 2" 50
+F1 "PUMP.sch" 50
+$EndSheet
+Text HLabel 8350 7700 2    50   Output ~ 0
+PUMP_N
+$Sheet
+S 8350 7450 900  450 
+U 5DDBBBF3
+F0 "Módulo de Acionamento da Bomba de porão 2" 50
+F1 "MAB19.sch" 50
+F2 "Bat_P" T R 9250 7600 50 
+F3 "Bat_N" T R 9250 7700 50 
+F4 "CAN" I R 9250 7800 50 
+$EndSheet
+Text HLabel 8350 7800 2    50   Output ~ 0
+LEVEL_SENSOR
+Text HLabel 7700 7600 0    50   Output ~ 0
+PUMP_P
+Text HLabel 7700 7700 0    50   Output ~ 0
+PUMP_N
+Wire Wire Line
+	7700 8800 8350 8800
+Wire Wire Line
+	7700 8700 7850 8700
+Wire Wire Line
+	7700 7700 8350 7700
+$Sheet
+S 6850 9100 850  300 
+U 5DDF52D7
+F0 "LEVEL_SENSOR_1" 50
+F1 "level_sensor.sch" 50
+F2 "LEVEL_SENSOR_IN" I R 7700 9200 50 
+F3 "LEVEL_SENSOR_OUT" I R 7700 9300 50 
+$EndSheet
+Wire Wire Line
+	7700 9200 7850 9200
+Wire Wire Line
+	7850 9200 7850 8700
+Connection ~ 7850 8700
+Wire Wire Line
+	7850 8700 8350 8700
+Wire Wire Line
+	7700 9300 7950 9300
+Wire Wire Line
+	7950 9300 7950 8900
+Wire Wire Line
+	7950 8900 8350 8900
+$Sheet
+S 6850 8000 850  300 
+U 5DE04EA5
+F0 "LEVEL_SENSOR_2" 50
+F1 "level_sensor.sch" 50
+F2 "LEVEL_SENSOR_IN" I R 7700 8100 50 
+F3 "LEVEL_SENSOR_OUT" I R 7700 8200 50 
+$EndSheet
+Wire Wire Line
+	9450 7600 9450 8700
+Wire Wire Line
+	9550 7700 9550 8800
+Wire Bus Line
+	9950 7800 9950 7750
+Wire Bus Line
+	9950 7800 9950 8900
+Wire Wire Line
+	7950 7800 8350 7800
+Wire Wire Line
+	7700 8200 7950 8200
+Wire Wire Line
+	7950 8200 7950 7800
+Wire Wire Line
+	7700 7600 7850 7600
+Wire Wire Line
+	7850 8100 7850 7600
+Wire Wire Line
+	7700 8100 7850 8100
+Connection ~ 7850 7600
+Wire Wire Line
+	7850 7600 8350 7600
+Wire Wire Line
+	10800 9725 10800 9500
+Connection ~ 10800 9500
+Wire Wire Line
+	10700 9825 10700 9600
+Connection ~ 10700 9600
+Wire Bus Line
+	6000 2600 6000 3300
+Wire Bus Line
+	5550 3300 6000 3300
+Connection ~ 6000 3300
+Wire Bus Line
+	6000 3300 6000 3900
+$Sheet
+S 4600 2950 950  450 
+U 5CE20376
+F0 "Módulo Fonte Principal 18V" 50
+F1 "MFP19.sch" 50
+F2 "CAN" I R 5550 3300 50 
+F3 "Bat_P" I L 4600 3000 50 
+F4 "Bat_N" I L 4600 3100 50 
+F5 "Enable_GND" I L 4600 3350 50 
+F6 "Enable" I L 4600 3250 50 
+$EndSheet
+Wire Wire Line
+	4600 3100 4350 3100
+Wire Wire Line
+	4600 3000 4450 3000
+$Comp
+L Switch:SW_DPST_x2 SW101
+U 1 1 5DE75AAE
+P 3600 3300
+F 0 "SW101" H 3600 3550 50  0000 C CNN
+F 1 " " H 3600 3450 50  0000 C CNN
+F 2 "" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 3250 3750 3250
+Wire Wire Line
+	3750 3250 3750 3050
+Wire Wire Line
+	3750 3050 3600 3050
+Wire Wire Line
+	3600 3050 3600 3100
+Wire Wire Line
+	4600 3350 3750 3350
+Wire Wire Line
+	3750 3350 3750 3550
+Wire Wire Line
+	3750 3550 3600 3550
+Wire Wire Line
+	3600 3550 3600 3500
+Wire Wire Line
+	5550 2250 8325 2250
+Wire Wire Line
+	5550 2350 8325 2350
+Entry Wire Line
+	7675 3100 7775 3200
+Wire Wire Line
+	7775 3200 8325 3200
+Text Label 7775 3200 0    50   ~ 0
+Bat_P
+Entry Wire Line
+	7675 3200 7775 3300
+Wire Wire Line
+	7775 3300 8325 3300
+Text Label 7775 3300 0    50   ~ 0
+Bat_N
+Entry Wire Line
+	7675 3850 7775 3950
+Wire Wire Line
+	7775 3950 8325 3950
+Entry Wire Line
+	7675 3950 7775 4050
+Wire Wire Line
+	7775 4050 8325 4050
+Entry Wire Line
+	7675 4600 7775 4700
+Wire Wire Line
+	7775 4700 8325 4700
+Entry Wire Line
+	7675 4700 7775 4800
+Wire Wire Line
+	7775 4800 8325 4800
+Entry Wire Line
+	7675 5300 7775 5400
+Entry Wire Line
+	7675 5400 7775 5500
+Wire Wire Line
+	7775 5400 8325 5400
+Wire Wire Line
+	7775 5500 8325 5500
+Entry Wire Line
+	7675 6050 7775 6150
+Entry Wire Line
+	7675 6150 7775 6250
+Wire Wire Line
+	7775 6150 8325 6150
+Wire Wire Line
+	7775 6250 8325 6250
+Entry Wire Line
+	7675 6750 7775 6850
+Entry Wire Line
+	7675 6850 7775 6950
+Wire Wire Line
+	7775 6850 8325 6850
+Text Label 7775 3950 0    50   ~ 0
+Bat_P
+Text Label 7775 4700 0    50   ~ 0
+Bat_P
+Text Label 7775 5400 0    50   ~ 0
+Bat_P
+Text Label 7775 6150 0    50   ~ 0
+Bat_P
+Text Label 7775 6850 0    50   ~ 0
+Bat_P
+Text Label 7775 4050 0    50   ~ 0
+Bat_N
+Text Label 7775 4800 0    50   ~ 0
+Bat_N
+Text Label 7775 5500 0    50   ~ 0
+Bat_N
+Text Label 7775 6250 0    50   ~ 0
+Bat_N
+Wire Wire Line
+	7775 6950 8325 6950
+Text Label 7775 6950 0    50   ~ 0
+Bat_N
+Entry Wire Line
+	4000 1575 4100 1675
+Entry Wire Line
+	4100 1575 4200 1675
+Wire Wire Line
+	4200 1675 4200 2000
+Wire Wire Line
+	3900 2000 4200 2000
+Wire Wire Line
+	4100 1675 4100 2100
+Text Label 4200 1925 1    50   ~ 0
+Bat_P
+Text Label 4100 1925 1    50   ~ 0
+Bat_N
+$Sheet
+S 6775 9600 925  275 
+U 5E2AED8D
+F0 "motor_direção" 50
+F1 "motor_direcao.sch" 50
+F2 "motor_P" I R 7700 9650 50 
+F3 "motor_N" I R 7700 9775 50 
+$EndSheet
+Wire Wire Line
+	11100 7700 11100 8950
+Wire Wire Line
+	11200 7600 11200 8850
+Connection ~ 6000 7100
+Wire Bus Line
+	5150 7750 6000 7750
+Wire Bus Line
+	6000 7750 6000 7100
+Wire Bus Line
+	6000 5200 6000 5850
+Wire Bus Line
+	5150 8950 6000 8950
+Wire Bus Line
+	6000 8950 6000 8350
+Wire Bus Line
+	6000 7750 6000 8350
+Connection ~ 6000 7750
+Connection ~ 6000 8350
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E3275E2
+P 1050 3450
+F 0 "BT1" H 1200 3550 50  0000 L CNN
+F 1 "D35" H 1200 3500 50  0000 L CNN
+F 2 "" V 1050 3510 50  0001 C CNN
+F 3 "~" V 1050 3510 50  0001 C CNN
+	1    1050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5E3275E9
+P 1050 4350
+F 0 "BT2" H 1200 4450 50  0000 L CNN
+F 1 "D35" H 1200 4400 50  0000 L CNN
+F 2 "" V 1050 4410 50  0001 C CNN
+F 3 "~" V 1050 4410 50  0001 C CNN
+	1    1050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 5E3275F0
+P 1050 5250
+F 0 "BT3" H 1200 5350 50  0000 L CNN
+F 1 "D35" H 1200 5300 50  0000 L CNN
+F 2 "" V 1050 5310 50  0001 C CNN
+F 3 "~" V 1050 5310 50  0001 C CNN
+	1    1050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5350 1050 5475
+$Comp
+L Device:Fuse F104
+U 1 1 5E3275F9
+P 1600 6075
+F 0 "F104" V 1350 6075 50  0000 C CNN
+F 1 "250A" V 1450 6075 50  0000 C CNN
+F 2 "" V 1530 6075 50  0001 C CNN
+F 3 "~" H 1600 6075 50  0001 C CNN
+	1    1600 6075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 6075 1450 6075
+Wire Wire Line
+	1050 3550 1050 3675
+Wire Wire Line
+	1050 4450 1050 4550
+Wire Wire Line
+	1750 6075 2125 6075
+Wire Wire Line
+	2125 2100 2125 6075
+Wire Wire Line
+	1050 2000 1050 3100
+$Comp
+L Device:Fuse_Small F102
+U 1 1 5E37C547
+P 1250 4000
+F 0 "F102" H 1250 4185 50  0000 C CNN
+F 1 "100mA" H 1250 4094 50  0000 C CNN
+F 2 "" H 1250 4000 50  0001 C CNN
+F 3 "~" H 1250 4000 50  0001 C CNN
+	1    1250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4000 1050 4000
+Connection ~ 1050 4000
+Wire Wire Line
+	1050 4000 1050 4150
+Wire Wire Line
+	1050 2000 3500 2000
+Wire Wire Line
+	2125 2100 3550 2100
+Wire Wire Line
+	2825 7550 4600 7550
+$Comp
+L Device:Fuse_Small F103
+U 1 1 5E3D20C5
+P 1250 4900
+F 0 "F103" H 1250 5085 50  0000 C CNN
+F 1 "100mA" H 1250 4994 50  0000 C CNN
+F 2 "" H 1250 4900 50  0001 C CNN
+F 3 "~" H 1250 4900 50  0001 C CNN
+	1    1250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4900 1050 4900
+Connection ~ 1050 4900
+Wire Wire Line
+	1050 4900 1050 5050
+$Comp
+L Device:Fuse_Small F101
+U 1 1 5E404B8C
+P 1250 3100
+F 0 "F101" H 1250 3285 50  0000 C CNN
+F 1 "100mA" H 1250 3194 50  0000 C CNN
+F 2 "" H 1250 3100 50  0001 C CNN
+F 3 "~" H 1250 3100 50  0001 C CNN
+	1    1250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3100 1050 3100
+Connection ~ 1050 3100
+Wire Wire Line
+	1050 3100 1050 3250
+Wire Wire Line
+	1050 3675 1150 3675
+Wire Wire Line
+	2725 3675 2725 7650
+Wire Wire Line
+	2725 7650 4600 7650
+Connection ~ 1050 3675
+Wire Wire Line
+	1050 3675 1050 4000
+Wire Wire Line
+	1350 3100 2825 3100
+Wire Wire Line
+	2825 3100 2825 7550
+Wire Wire Line
+	1350 4000 2625 4000
+Wire Wire Line
+	2625 4000 2625 8100
+Wire Wire Line
+	2625 8100 4600 8100
+Wire Wire Line
+	4600 8200 2525 8200
+Wire Wire Line
+	2525 8200 2525 4550
+Wire Wire Line
+	2525 4550 1350 4550
+Connection ~ 1050 4550
+Wire Wire Line
+	1050 4550 1050 4900
+Wire Wire Line
+	1350 4900 2425 4900
+Wire Wire Line
+	2425 4900 2425 8750
+Wire Wire Line
+	2425 8750 4600 8750
+Wire Wire Line
+	4600 8850 2300 8850
+Wire Wire Line
+	2300 8850 2300 5475
+Wire Wire Line
+	2300 5475 1350 5475
+Connection ~ 1050 5475
+Wire Wire Line
+	1050 5475 1050 6075
+Wire Wire Line
+	10700 9600 11400 9600
+Wire Wire Line
+	10800 9500 11350 9500
+Wire Wire Line
+	7700 9650 8350 9650
+Wire Wire Line
+	7700 9775 8350 9775
+$Sheet
+S 8350 9575 900  425 
+U 5CE24955
+F0 "Módulo de Direção Elétrica - POPA" 50
+F1 "MDE19.sch" 50
+F2 "Bat_P" T R 9250 9725 50 
+F3 "Bat_N" T R 9250 9825 50 
+F4 "CAN" I R 9250 9925 50 
+F5 "motor_P" I L 8350 9650 50 
+F6 "motor_N" I L 8350 9775 50 
+$EndSheet
+Wire Wire Line
+	9250 9725 10800 9725
+Wire Wire Line
+	10700 9825 9250 9825
+Wire Bus Line
+	9250 9925 9950 9925
+Wire Notes Line rgb(255, 0, 0)
+	800  1300 3000 1300
+Wire Notes Line rgb(255, 0, 0)
+	3000 1300 3000 6350
+Wire Notes Line rgb(255, 0, 0)
+	3000 6350 800  6350
+Wire Notes Line rgb(255, 0, 0)
+	800  6350 800  1300
+Wire Notes Line rgb(255, 0, 0)
+	3200 1300 3200 10800
+Wire Notes Line rgb(255, 0, 0)
+	3200 10800 13200 10800
+Wire Notes Line rgb(255, 0, 0)
+	13200 10800 13200 1300
+Wire Notes Line rgb(255, 0, 0)
+	13200 1300 3200 1300
+Wire Notes Line rgb(255, 0, 0)
+	13400 1300 13400 6150
+Wire Notes Line rgb(255, 0, 0)
+	13400 6150 15350 6150
+Wire Notes Line rgb(255, 0, 0)
+	15350 6150 15350 1300
+Wire Notes Line rgb(255, 0, 0)
+	15350 1300 13400 1300
+Wire Wire Line
+	4100 2100 4100 6950
+Wire Wire Line
+	3850 2100 4100 2100
+Wire Wire Line
+	4200 2000 4450 2000
+Text Notes 800  1300 0    50   ~ 10
+COMPARTIMENTO DAS BATEIRAS DE PROPULSÃO
+Text Notes 3200 1300 0    50   ~ 10
+COMPARTIMENTO DA ELETRÔNICA
+Text Notes 13400 1300 0    50   ~ 10
+PAINÉIS FOTOVOLTAICOS
+Wire Notes Line
+	3450 1650 5675 1650
+Wire Notes Line
+	5675 1650 5675 2750
+Wire Notes Line
+	5675 2750 3450 2750
+Wire Notes Line
+	3450 2750 3450 1650
+Text Notes 3450 1650 0    50   ~ 0
+MCS19
+Wire Bus Line
+	9950 7100 9950 7800
+Connection ~ 9450 7600
+Connection ~ 9550 7700
+Wire Bus Line
+	6000 3900 6000 4550
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5E5FC523
+P 1250 5475
+F 0 "F?" H 1250 5660 50  0000 C CNN
+F 1 "100mA" H 1250 5569 50  0000 C CNN
+F 2 "" H 1250 5475 50  0001 C CNN
+F 3 "~" H 1250 5475 50  0001 C CNN
+	1    1250 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5475 1050 5475
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5E5FC647
+P 1250 4550
+F 0 "F?" H 1250 4735 50  0000 C CNN
+F 1 "100mA" H 1250 4644 50  0000 C CNN
+F 2 "" H 1250 4550 50  0001 C CNN
+F 3 "~" H 1250 4550 50  0001 C CNN
+	1    1250 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4550 1050 4550
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5E5FC79F
+P 1250 3675
+F 0 "F?" H 1250 3860 50  0000 C CNN
+F 1 "100mA" H 1250 3769 50  0000 C CNN
+F 2 "" H 1250 3675 50  0001 C CNN
+F 3 "~" H 1250 3675 50  0001 C CNN
+	1    1250 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3675 2725 3675
+Wire Bus Line
+	4000 1575 7675 1575
+Wire Bus Line
+	7675 1575 7675 6850
+Text Notes 7025 850  0    100  ~ 20
+ESQUEMÁTICO ELÉTRICO ZÊNITE SOLAR
+$EndSCHEMATC
