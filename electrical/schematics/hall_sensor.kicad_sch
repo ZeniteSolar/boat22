@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2abfce11-a148-4e78-adfa-a117278e4a35)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "M" (shape input) (at 43.18 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0ec1cb0f-b12d-4825-906b-0eef90db89b2)
+  )
+  (hierarchical_label "+" (shape input) (at 43.18 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4d8f0e1e-eaff-4e57-ae89-a5c7ba42217b)
+  )
+  (hierarchical_label "-" (shape input) (at 43.18 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f55bb4d6-1810-48a6-bf55-e58b1b1618b3)
+  )
+)

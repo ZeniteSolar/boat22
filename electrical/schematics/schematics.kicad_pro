@@ -471,6 +471,10 @@
     [
       "ac06c04f-6bce-4c93-9302-5880a6686410",
       "Módulo de Acionamento da Contactora"
+    ],
+    [
+      "d8e29e8e-6474-42db-a3ee-62571539867d",
+      "HallSensor"
     ]
   ],
   "text_variables": {}
