@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 88cb65f4-7e9e-44eb-8692-3b6e2e788a94)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Bat_N" (shape input) (at 33.02 29.21 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1f9ae101-c652-4998-a503-17aedf3d5746)
+  )
+  (hierarchical_label "Enable" (shape input) (at 33.655 31.75 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5c30b9b4-3014-4f50-9329-27a539b67e01)
+  )
+  (hierarchical_label "Enable_GND" (shape input) (at 38.1 33.655 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9a2d648d-863a-4b7b-80f9-d537185c212b)
+  )
+  (hierarchical_label "CAN" (shape input) (at 30.48 36.195 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c4cab9c5-d6e5-4660-b910-603a51b56783)
+  )
+  (hierarchical_label "Bat_P" (shape input) (at 33.02 27.305 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e5b328f6-dc69-4905-ae98-2dc3200a51d6)
+  )
+)

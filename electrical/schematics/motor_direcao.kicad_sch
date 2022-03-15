@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 28e37b45-f843-47c2-85c9-ca19f5430ece)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "motor_P" (shape input) (at 33.02 22.225 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 88610282-a92d-4c3d-917a-ea95d59e0759)
+  )
+  (hierarchical_label "motor_N" (shape input) (at 32.385 24.765 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 98914cc3-56fe-40bb-820a-3d157225c145)
+  )
+)

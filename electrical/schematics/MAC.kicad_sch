@@ -1,0 +1,35 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b28c22e7-1e2e-4b0e-bc20-cff24a2b2069)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "BAT+" (shape input) (at 41.91 51.435 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4a6fad9b-469e-4d55-9a58-c03821250f72)
+  )
+  (hierarchical_label "CAN" (shape input) (at 41.91 34.925 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5fc9729b-ab69-4558-96a1-170a3667c756)
+  )
+  (hierarchical_label "VCC" (shape input) (at 41.91 38.735 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 81dd8560-4f9e-40f8-bf89-38931e10bdc1)
+  )
+  (hierarchical_label "BAT-" (shape input) (at 41.91 53.975 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8cc76379-50b0-4db6-920b-fcae05b66004)
+  )
+  (hierarchical_label "Frente" (shape input) (at 41.91 41.91 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b183d867-4a03-4203-981e-6da0a36b40d0)
+  )
+  (hierarchical_label "Ré" (shape input) (at 41.91 45.085 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f87abd9d-5377-4e53-8dcc-07029e83c3d8)
+  )
+)

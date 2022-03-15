@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 86dc7a78-7d51-4111-9eea-8a8f7977eb16)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Motor_P" (shape input) (at 26.67 26.67 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 026ac84e-b8b2-4dd2-b675-8323c24fd778)
+  )
+  (hierarchical_label "Bat_N_in" (shape input) (at 27.305 24.765 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0bcafe80-ffba-4f1e-ae51-95a595b006db)
+  )
+  (hierarchical_label "CAN" (shape input) (at 22.86 30.48 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 34cdc1c9-c9e2-44c4-9677-c1c7d7efd83d)
+  )
+  (hierarchical_label "Motor_N" (shape input) (at 26.67 28.575 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid da25bf79-0abb-4fac-a221-ca5c574dfc29)
+  )
+  (hierarchical_label "Bat_P_in" (shape input) (at 27.305 22.86 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e32ee344-1030-4498-9cac-bfbf7540faf4)
+  )
+)

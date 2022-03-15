@@ -1,0 +1,477 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "schematics.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "clean.kicad_wks",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce23ec",
+      "Módulo de Carregamento do Sistema"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce20376",
+      "Módulo Fonte Principal 18V"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce2052d",
+      "Módulo de Interface de Controle"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce203d7",
+      "Display Multímetro"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dd716fa",
+      "Display Multímetro Secundário"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce2020f",
+      "Módulo CAN para RaspberryPI"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce35cc",
+      "Módulo Sensor CAN - Amperímetro IN"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce3650",
+      "Módulo Sensor CAN - Amperímetro OUT"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc80323",
+      "Módulo Sensor CAN - Voltimetro Bateria 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce3151",
+      "Módulo Sensor CAN - Voltimetro Bateria 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc96438",
+      "Módulo Sensor CAN - Voltimetro Bateria 3"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e2aed8d",
+      "motor_direção"
+    ],
+    [
+      "00000000-0000-0000-0000-00005de04ea5",
+      "LEVEL_SENSOR_2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ddf52d7",
+      "LEVEL_SENSOR_1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ddbbbed",
+      "Bomba de porão 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dd76a89",
+      "Bomba de porão 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce2823",
+      "Módulo de Acionamento do Motor"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce60f1",
+      "Módulo Controlador de Carga 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce7a13",
+      "Módulo Controlador de Carga 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce7e06",
+      "Módulo Controlador de Carga 3"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce81f0",
+      "Módulo Controlador de Carga 4"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ccf68bc",
+      "Módulo de Carregamento de Bateria 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc34f07",
+      "Módulo de Carregamento de Bateria 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ddbbbf3",
+      "Módulo de Acionamento da Bomba de porão 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce20542",
+      "Módulo de Acionamento da Bomba de porão 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce24955",
+      "Módulo de Direção Elétrica - POPA"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce3e9f1",
+      "Módulo de Direção Elétrica - PROA"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce6749",
+      "Motor Principal"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc3df9f",
+      "Bateria Auxiliar"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dcfe416",
+      "Ventiladores"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dc4e327",
+      "Bateria Direção"
+    ],
+    [
+      "00000000-0000-0000-0000-00005ce20002",
+      "Módulo Tacômetro"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce7104",
+      "Painel Fotovoltaico 1"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce7a17",
+      "Painel Fotovoltaico 2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce7e0a",
+      "Painel Fotovoltaico 3"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cce81f4",
+      "Painel Fotovoltaico 4"
+    ],
+    [
+      "f5d3e87b-336f-4f9e-a70f-dcddd04e0227",
+      "Contatora"
+    ],
+    [
+      "ac06c04f-6bce-4c93-9302-5880a6686410",
+      "Módulo de Acionamento da Contactora"
+    ]
+  ],
+  "text_variables": {}
+}

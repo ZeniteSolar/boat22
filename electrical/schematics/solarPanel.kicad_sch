@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8fc062a7-114d-48eb-a8f8-71128838f380)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Panel_N" (shape input) (at 27.94 33.02 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1fa508ef-df83-4c99-846b-9acf535b3ad9)
+  )
+  (hierarchical_label "Panel_P" (shape input) (at 27.94 31.115 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4f411f68-04bd-4175-a406-bcaa4cf6601e)
+  )
+)

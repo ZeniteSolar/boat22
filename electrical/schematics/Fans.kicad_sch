@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d0a0deb1-4f0f-4ede-b730-2c6d67cb9618)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Bat_P" (shape input) (at 29.21 38.1 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6bd115d6-07e0-45db-8f2e-3cbb0429104f)
+  )
+  (hierarchical_label "Bat_N" (shape input) (at 29.21 40.64 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 97fe2a5c-4eee-4c7a-9c43-47749b396494)
+  )
+)

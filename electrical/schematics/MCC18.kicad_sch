@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c7af8405-da2e-4a34-b9b8-518f342f8995)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Bat_N" (shape input) (at 26.67 36.83 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 26801cfb-b53b-4a6a-a2f4-5f4986565765)
+  )
+  (hierarchical_label "Panel_N" (shape input) (at 28.575 40.64 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6f80f798-dc24-438f-a1eb-4ee2936267c8)
+  )
+  (hierarchical_label "Bat_P" (shape input) (at 26.67 34.925 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid aa79024d-ca7e-4c24-b127-7df08bbd0c75)
+  )
+  (hierarchical_label "CAN" (shape input) (at 24.765 42.545 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f66398f1-1ae7-4d4d-939f-958c174c6bce)
+  )
+  (hierarchical_label "Panel_P" (shape input) (at 28.575 38.735 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f78e02cd-9600-4173-be8d-67e530b5d19f)
+  )
+)

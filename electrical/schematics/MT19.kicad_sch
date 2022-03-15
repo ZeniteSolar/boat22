@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6f675e5f-8fe6-4148-baf1-da97afc770f8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CAN" (shape input) (at 48.26 31.115 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d69a5fdf-de15-4ec9-94f6-f9ee2f4b69fa)
+  )
+)

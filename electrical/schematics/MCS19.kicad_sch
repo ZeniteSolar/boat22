@@ -1,0 +1,27 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3e915099-a18e-49f4-89bb-abe64c2dade5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Bat_P_Unfused_in" (shape input) (at 34.29 23.495 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 30317bf0-88bb-49e7-bf8b-9f3883982225)
+  )
+  (hierarchical_label "Bat_P_Unfused_out" (shape input) (at 35.56 27.305 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid cb721686-5255-4788-a3b0-ce4312e32eb7)
+  )
+  (hierarchical_label "Bat_N_Unfused_out" (shape input) (at 35.56 29.21 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d4db7f11-8cfe-40d2-b021-b36f05241701)
+  )
+  (hierarchical_label "Bat_N_Unfused_in" (shape input) (at 34.29 25.4 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f959907b-1cef-4760-b043-4260a660a2ae)
+  )
+)

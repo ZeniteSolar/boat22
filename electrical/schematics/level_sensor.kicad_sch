@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 9dcdc92b-2219-4a4a-8954-45f02cc3ab25)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "LEVEL_SENSOR_OUT" (shape input) (at 105.41 59.69 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5d9921f1-08b3-4cc9-8cf7-e9a72ca2fdb7)
+  )
+  (hierarchical_label "LEVEL_SENSOR_IN" (shape input) (at 104.14 53.34 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid dae72997-44fc-4275-b36f-cd70bf46cfba)
+  )
+)

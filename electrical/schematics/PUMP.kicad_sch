@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 92035a88-6c95-4a61-bd8a-cb8dd9e5018a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "PUMP_N" (shape input) (at 26.035 34.925 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3326423d-8df7-4a7e-a354-349430b8fbd7)
+  )
+  (hierarchical_label "PUMP_P" (shape input) (at 26.67 31.75 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4ec618ae-096f-4256-9328-005ee04f13d6)
+  )
+)

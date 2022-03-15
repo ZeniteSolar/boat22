@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid fb30f9bb-6a0b-4d8a-82b0-266eab794bc6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Charger_P" (shape input) (at 30.48 29.845 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2454fd1b-3484-4838-8b7e-d26357238fe1)
+  )
+  (hierarchical_label "Charger_N" (shape input) (at 30.48 31.75 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 45884597-7014-4461-83ee-9975c42b9a53)
+  )
+  (hierarchical_label "Bat_N" (shape input) (at 26.67 27.94 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ae77c3c8-1144-468e-ad5b-a0b4090735bd)
+  )
+  (hierarchical_label "Bat_P" (shape input) (at 26.67 26.035 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c3c499b1-9227-4e4b-9982-f9f1aa6203b9)
+  )
+  (hierarchical_label "CAN" (shape input) (at 24.13 33.655 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c514e30c-e48e-4ca5-ab44-8b3afedef1f2)
+  )
+)
