@@ -516,6 +516,22 @@
     [
       "d8e29e8e-6474-42db-a3ee-62571539867d",
       "HallSensor"
+    ],
+    [
+      "8bb106aa-a675-474b-b06c-c489e849ab0f",
+      "Módulo Controlador de Carga 5"
+    ],
+    [
+      "13b7f376-9336-4fe5-ae5c-150c18a6a05b",
+      "Painel Fotovoltaico 5"
+    ],
+    [
+      "adfb8639-482f-4b44-800c-c72e89f317ba",
+      "Módulo Controlador de Carga 6"
+    ],
+    [
+      "bff16373-f7e9-4b81-b9f2-4d347985b4fd",
+      "Painel Fotovoltaico 6"
     ]
   ],
   "text_variables": {}
